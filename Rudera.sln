@@ -1,16 +1,40 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rudera", "Rudera.csproj", "{28E7AD10-ECDE-4DAF-9536-9FA3D1BB8612}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rudera.GameLibrary", "Rudera.GameLibrary\Rudera.GameLibrary.csproj", "{A4C63A49-335F-4E1D-A043-5876C9269F9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rudera.Android", "Rudera.Android\Rudera.Android.csproj", "{9AB603A0-483B-45E7-9E7C-D54A307AFD77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rudera.DesktopGL", "Rudera.DesktopGL\Rudera.DesktopGL.csproj", "{8EC7D2D6-D9EB-49EC-965B-A20E32EF3941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rudera.WindowsDX", "Rudera.WindowsDX\Rudera.WindowsDX.csproj", "{58B3DEBB-AC79-41C7-BE35-C34E135AAA19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{28E7AD10-ECDE-4DAF-9536-9FA3D1BB8612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{28E7AD10-ECDE-4DAF-9536-9FA3D1BB8612}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{28E7AD10-ECDE-4DAF-9536-9FA3D1BB8612}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{28E7AD10-ECDE-4DAF-9536-9FA3D1BB8612}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4C63A49-335F-4E1D-A043-5876C9269F9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4C63A49-335F-4E1D-A043-5876C9269F9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4C63A49-335F-4E1D-A043-5876C9269F9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4C63A49-335F-4E1D-A043-5876C9269F9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AB603A0-483B-45E7-9E7C-D54A307AFD77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AB603A0-483B-45E7-9E7C-D54A307AFD77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AB603A0-483B-45E7-9E7C-D54A307AFD77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AB603A0-483B-45E7-9E7C-D54A307AFD77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EC7D2D6-D9EB-49EC-965B-A20E32EF3941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EC7D2D6-D9EB-49EC-965B-A20E32EF3941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EC7D2D6-D9EB-49EC-965B-A20E32EF3941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EC7D2D6-D9EB-49EC-965B-A20E32EF3941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58B3DEBB-AC79-41C7-BE35-C34E135AAA19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B3DEBB-AC79-41C7-BE35-C34E135AAA19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B3DEBB-AC79-41C7-BE35-C34E135AAA19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58B3DEBB-AC79-41C7-BE35-C34E135AAA19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
